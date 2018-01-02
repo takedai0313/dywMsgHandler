@@ -25,7 +25,6 @@ exports.handler = (event, context, callback) => {
           if(err)   console.log(err, err.stack);
           else      console.log(data);
         });
-        console.log("text");
     }else{
         // なにもしない
         console.log("null");
